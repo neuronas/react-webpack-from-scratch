@@ -1,0 +1,12 @@
+
+
+$font-size: 11rem;
+$font-color: lch(32 32 348);
+
+html {
+  body {
+    background: lch(68 32 96);
+  }
+  font-size: $font-size;
+  color: $font-color;
+}
