@@ -44,6 +44,14 @@ module.exports = {
 
       // Fonts and SVGs: Inline files
       { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline' },
+      // {
+      //   test: /\.(png|svg|jpg|jpeg|gif)$/,
+      //   exclude: /node_modules/,
+      //   loader: 'file-loader',
+      //   options: {
+      //     outputPath: 'images',
+      //   }
+      // },
     ],
   },
 

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
 
 $font-size: 11rem;
 $font-color: lch(32 32 348);
@@ -7,6 +7,8 @@ html {
   body {
     background: lch(68 32 96);
   }
+  font-family: 'Roboto';
   font-size: $font-size;
+  font-weight: 600;
   color: $font-color;
 }

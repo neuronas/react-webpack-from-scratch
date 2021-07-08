@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production webpack --config config/webpack.prod.js",
     "watch": "webpack --watch",
-    "start": "NODE_ENV=development webpack serve --config config/webpack.dev.js --open",
-    "start2": "webpack-dev-server --inline --hot"
+    "start": "NODE_ENV=development webpack serve --config config/webpack.dev.js"
   },
   "author": "",
   "license": "ISC",

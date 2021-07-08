@@ -56,7 +56,9 @@ module.exports = merge(common, {
   ],
   devtool: 'inline-source-map',
   devServer: {
-    contentBase: './dist',
+    contentBase: path.resolve( __dirname, '../dist'), // default dir : https://webpack.js.org/migrate/5/
+    open: true,
     hot: true,
+    port: 3000,
   },
 });
